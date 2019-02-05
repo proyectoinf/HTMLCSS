@@ -1,0 +1,89 @@
+body{
+	background-color:#5b7989;
+}
+h1{
+	text-shadow:2px 1px #02010a;
+	font-family:dancing string;
+}
+nav{
+	text-align:right;
+}
+
+
+#bloque1 .principal1 > div {
+	text-align: center;
+	width: 50%;
+}
+.principal1 {
+	display: flex;
+	flex-direction: row;
+}
+.principal3 {
+	display: flex;
+	flex-direction: row;
+}
+.principal2 {
+	display: flex;
+	flex-direction: row;
+}
+#bloque2 .principal2 > div {
+	text-align: center;
+	width: 50%;
+}
+#bloque3 .principal3 > div {
+	text-align: center;
+	width: 50%;
+}
+#bloque4 .piepagina > div {
+	text-align: center;
+	width: 50%;
+}
+.piepagina {
+	display: flex;
+	flex-direction: row;
+}
+.contacto{
+	width:50%;
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	text-shadow:2px 1px #02010a;
+}
+.redes{
+	display: flex;
+	flex-direction: row;
+	width:50%;
+}
+.terminos{
+	display: flex;
+	flex-direction: row;
+	width:50%;
+}
+.derechos{
+	display: flex;
+	flex-direction: row;
+	width:50%;
+}
+footer{
+	background-color:#C6d5c5 !important;
+}
+.gato{
+	width:50%;
+	align-content:center;
+}
+.paisaje{
+	width:50%;
+	transition:transform(2s);
+	text-shadow:2px 1px #82c3a6;
+}
+.retrato{
+	width:45%;
+	transition:transform(2s);
+	border-image:2px;
+	text-shadow:2px 1px #82c3a6;
+}
+.paisaje:hover{
+	transform:rotate(10deg);
+}
+.retrato:hover{
+	transform:translate(5px, 20px);
+}
